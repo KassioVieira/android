@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dafada"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:textColor="#1b0404"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/def_IMC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/def_formula" />
+
+            <ImageView
+                android:layout_height="65px"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/form_imc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Então, utiliza-se a tabela abaixo para a classificação: " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textSize="3dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="IMC"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Classificação"
+                    android:textAllCaps="true"
+                    android:textStyle="bold|italic" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textSize="3dp" />
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorazul"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&#60;16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorazul"
+                    android:padding="5dp"
+                    android:text="@string/mag_grave"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorvendeescuromais"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="16 a &#60; 17"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorvendeescuromais"
+                    android:padding="5dp"
+                    android:text="@string/mag_moderada"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorvendeescuro"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="17 a &#60; 18.5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorvendeescuro"
+                    android:padding="5dp"
+                    android:text="@string/mag_leve"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorvendeclaro"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="18.5 a &#60; 25"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorvendeclaro"
+                    android:padding="5dp"
+                    android:text="@string/peso_normal"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/coloramarelo"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="25 a &#60; 30"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/coloramarelo"
+                    android:padding="5dp"
+                    android:text="@string/sobrepeso"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/coloramareloescuro"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="30 a &#60; 35"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/coloramareloescuro"
+                    android:padding="5dp"
+                    android:text="@string/obesidade_grau_1"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorvermelho"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="35 a &#60; 40"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorvermelho"
+                    android:padding="5dp"
+                    android:text="@string/obesidade_grau_2"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="0"
+                    android:background="@color/colorvermelhoescuro"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&#60; 40"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/colorvermelhoescuro"
+                    android:padding="5dp"
+                    android:text="@string/obesidade_grau_3"
+                    android:textStyle="italic|bold" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textSize="3dp" />
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/Retonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/botao_lindo3"
+                android:onClick="Volta"
+                android:text="Voltar"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

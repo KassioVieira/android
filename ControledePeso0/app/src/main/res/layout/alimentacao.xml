@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7e4c5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff9400"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/alimentacao1"
+            android:textColor="#ffffff"
+            android:textSize="20pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Nome"
+                android:textAllCaps="true"
+                android:textColor="#c77400"
+                android:textSize="8pt"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Data"
+                android:textAllCaps="true"
+                android:textColor="#c77400"
+                android:textSize="8pt"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hora"
+                android:textAllCaps="true"
+                android:textColor="#c77400"
+                android:textSize="8pt"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Hora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="time" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1pt"
+            android:layout_marginLeft="4pt"
+            android:layout_marginRight="4pt"
+            android:layout_marginTop="1pt"
+            android:background="#fa8770" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:text="@string/infalimentar"
+            android:textColor="#c77400"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/MetaAlimentacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/comida17"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Alimentacao1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/peso16"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaGrama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/comida17"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Alimentacao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/peso16"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaGrama2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/comida17"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Alimentacao3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/peso16"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaGrama3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/comida17"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Alimentacao4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/peso16"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaGrama4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/totalcaloria"
+            android:textColor="#c77400"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caloria"
+                android:textAllCaps="true"
+                android:textColor="#c77400"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Caloria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1pt"
+            android:layout_marginLeft="4pt"
+            android:layout_marginRight="4pt"
+            android:layout_marginTop="1pt"
+            android:background="#fa8770" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:text="@string/infbebida"
+            android:textColor="#c77400"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/MetaBebida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/bebida02"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Bebida1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/copo01"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaML1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/bebida02"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Bebida2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/copo01"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaML2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/bebida02"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Bebida3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/copo01"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaML3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/bebida02"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Bebida4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/copo01"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/MetaML4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/totalcaloria"
+            android:textColor="#c77400"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caloria"
+                android:textAllCaps="true"
+                android:textColor="#c77400"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Bebida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1pt"
+            android:layout_marginLeft="4pt"
+            android:layout_marginRight="4pt"
+            android:layout_marginTop="1pt"
+            android:background="#fa8770" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/salva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/botao_lindo4"
+                android:onClick="Salvar"
+                android:text="Salvar"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/Limpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/botao_lindo3"
+                android:onClick="limpar"
+                android:text="Clear"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/Retonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/botao_lindo5"
+                android:onClick="Salvar"
+                android:text="Voltar"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

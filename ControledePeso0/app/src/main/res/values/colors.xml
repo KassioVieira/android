@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBranco">#ffffff</color>
+
+    <!--XML Classe Info Inicio-->
+    <color name="colorazul">#34c5ff</color>
+    <color name="colorvendeclaro">#3bec41</color>
+    <color name="colorvendeescuro">#2daf32</color>
+    <color name="colorvendeescuromais">#2a732c</color>
+    <color name="coloramarelo">#ffee00</color>
+    <color name="coloramareloescuro">#cfb41a</color>
+    <color name="colorvermelho">#f20505</color>
+    <color name="colorvermelhoescuro">#881212</color>
+    <!--XML Classe Info Fim-->
+
+    <!--XML Classe Abertura Inicio-->
+    <color name="colorazulmarinho">#426bff</color>
+    <color name="colorlaranja">#f66c3e</color>
+    <color name="colorVermelho">#fc362f</color>
+    <!--XML Classe Abertura Inicio-->
+
+    <color name="colorPadrao">#FDF</color>
+
+
+
+</resources>

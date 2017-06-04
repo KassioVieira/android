@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:textColor="#1b0404"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="8dp"
+            android:background="#028109" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fb76fb"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/info"
+            android:textColor="#ffffff"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lista_de_alimentacao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="2dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

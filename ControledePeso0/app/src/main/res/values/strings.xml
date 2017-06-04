@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Controle de Peso</string>
+
+    <!--XML Classe Abertura Inicio-->
+    <string name="Entra">ENTRAR</string>
+    <string name="CriarPerfil">CRIAR PERFIL</string>
+    <!--XML Classe Abertura Fim-->
+
+    <!--XML Classe Incio Inicio-->
+    <string name="Titulo">Bem Vindo a Vida Saudável</string>
+    <string name="cadastro">Editar Perfil</string>
+    <string name="IMC1">Calcular IMC</string>
+    <string name="alimentacao">Alimentação</string>
+    <string name="informacao">Informação</string>
+    <!--XML Classe Incio Fim-->
+
+    <!-- Mensagens de Erros-->
+    <string name="e_divisao_por_0">Insira um valor para altura diferente de zero!</string>
+
+    <!-- Mensagens de Registro no Banco de Dados (BD)-->
+    <string name="registro_salvo">Registro Salvo!</string>
+    <string name="erro_salvar_registro">Erro ao Salvar o Registro!</string>
+
+    <!--XML Classe Informação Inicio-->
+    <string name="title_app">Índice de Massa Corpórea (IMC)</string>
+    <string name="def_IMC">O índice de massa corporal, conhecido como IMC,
+        é uma técnica utilizada para verificar o estado nutricional e
+        observar se a pessoa está dentro dos padrões de normalidade com
+        relação ao seu peso e altura.</string>
+    <string name="def_formula">Esta técnica é medida por meio da fórmula:</string>
+    <string name="mag_grave">Magreza Grave (desnutrição grave)</string>
+    <string name="mag_moderada">Magreza Moderada (desnutrição)</string>
+    <string name="mag_leve">Magreza Leve (abaixo do peso)</string>
+    <string name="peso_normal">Peso Normal (saudável)</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidade_grau_1">Obesidade de Grau I</string>
+    <string name="obesidade_grau_2">Obesidade de Grau II (severa)</string>
+    <string name="obesidade_grau_3">Obesidade de Grau III (mórbida)</string>
+    <!--XML Classe Informação Fim-->
+
+    <!--XML Classe Cadastro Inicio-->
+    <string name="Cadastro">Cadastro</string>
+    <string name="Nome">Nome:</string>
+    <string name="Idade">Idade:</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="Mas">Masculino</string>
+    <string name="Fem">Feminino</string>
+    <string name="Peso">Peso:</string>
+    <string name="Altura">Altura:</string>
+    <string name="IMC2">IMC:</string>
+    <string name="Meta">Defina Suas Metas</string>
+    <string name="Meta1">Defina Suas Metas</string>
+    <string name="Meta2">Defina Suas Metas</string>
+    <string name="Meta3">Defina Suas Metas</string>
+    <string name="Meta4">Defina Suas Metas</string>
+    <string name="selecione">Data</string>
+    <string name="pesoatual">A Diquirir</string>
+    <string name="meta">A Conquistar</string>
+    <string name="senha">Senha</string>
+
+    <string-array name="Meta">
+        <item>Ganhar Peso</item>
+        <item>Perder Peso</item>
+        <item>Manter Peso</item>
+    </string-array>
+       <!--XML Classe Cadastro Inicio-->
+
+    <!--XML Classe login Inicio-->
+    <string name="login">Faça Seu Login</string>
+    <string name="usuario">Usuário:</string>
+    <string name="Senha">Senha:</string>
+    <string name="EsqueceuSuaSenha">Esqueceu a Senha?</string>
+    <!--XML Classe login Final-->
+
+    <!--XML Classe Alimentação Inicio-->
+    <string name="infalimentar">Informe Sua Alimentação</string>
+    <string name="infbebida">Informe Sua Bebida</string>
+    <string name="alimentacao1">Alimentação</string>
+    <string name="Data">Data:</string>
+    <string name="Hora">Hora:</string>
+
+    <string-array name="MetaAlimentacao">
+        <item>Café da Manha</item>
+        <item>Lanche Manha</item>
+        <item>Almoço</item>
+        <item>Lanche Tarde</item>
+        <item>Jantar</item>
+        <item>Lanche Noite</item>
+    </string-array>
+
+    <string-array name="MetaBebida">
+        <item>Água</item>
+        <item>Água Tônica</item>
+        <item>Suco Natural</item>
+        <item>Suco Industrializado</item>
+        <item>Cafezinhos</item>
+        <item>Refrigerantes</item>
+        <item>Cervejas</item>
+        <item>Vinhos</item>
+        <item>Licor</item>
+        <item>Cachaça</item>
+    </string-array>
+
+   <string-array name="MetaGrama">
+        <item>0G</item>
+        <item>50G</item>
+        <item>100G</item>
+        <item>150G</item>
+        <item>200G</item>
+        <item>250G</item>
+        <item>300G</item>
+        <item>350G</item>
+        <item>400G</item>
+        <item>450G</item>
+        <item>500G</item>
+        <item>550G</item>
+        <item>600G</item>
+        <item>650G</item>
+        <item>700G</item>
+        <item>750G</item>
+        <item>800G</item>
+        <item>850G</item>
+        <item>900G</item>
+        <item>950G</item>
+        <item>1.0KG</item>
+        <item>Cachaça</item>
+    </string-array>
+
+    <string-array name="MetaML">
+        <item>0ML</item>
+        <item>50ML</item>
+        <item>100ML</item>
+        <item>150ML</item>
+        <item>200ML</item>
+        <item>250ML</item>
+        <item>300ML</item>
+        <item>350ML</item>
+        <item>400ML</item>
+        <item>450ML</item>
+        <item>500ML</item>
+        <item>550ML</item>
+        <item>600ML</item>
+        <item>650ML</item>
+        <item>700ML</item>
+        <item>750ML</item>
+        <item>800ML</item>
+        <item>850ML</item>
+        <item>900ML</item>
+        <item>950ML</item>
+        <item>1.0L</item>
+    </string-array>
+
+    <string name="totalcaloria">Total de Caloria Adquirido na Alimentação</string>
+    <string name="totalbebida">Total de Caloria Adquirido na Bebida</string>
+    <string name="caloria">Total de Caloria</string>
+    <!--XML Classe Alimentação Fim-->
+
+    <!--XML Classe Calcular IMC Inicio-->
+    <string name="novopeso">Novo Peso:</string>
+    <string name="PesoAltura">Seu Peso, Altura e IMC Inicial </string>
+    <string name="novoIMC">Novo IMC:</string>
+    <string name="novametida">Seu Progresso Inicial</string>
+    <string name="NovoPeso">Informe Seu Novo Peso</string>
+    <string name="Progresso1">Seu Progresso Inicial</string>
+    <string name="Progresso2">Seu Progresso Final</string>
+    <!--XML Classe Calcular IMC Fim-->
+
+    <!--XML Classe Lista IMC Inicio-->
+    <string name="info">Lista de Suas Alimentações Diaria e Mensal</string>
+    <string name="addalimento">Adicionar Alimentação</string>
+    <string name="infomacaoalimentas">Relatorio da Alimentação</string>
+    <!--XML Classe Lista IMC Inicio-->
+
+    </resources>

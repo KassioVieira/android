@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.paulo.controledepeso">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/imc01"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/imc01"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Abertura">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Informacao"/>
+        <activity android:name=".Alimentacao"/>
+        <activity android:name=".Cadastro"/>
+        <activity android:name=".CalcularIMC"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Inicio"/>
+        <activity android:name=".Lista"/>
+        <activity android:name=".Cas_Info_Alimentacao"/>
+
+
+    </application>
+
+</manifest>
